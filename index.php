@@ -22,10 +22,10 @@
 
     <div id="app">
 
-        <nav class="bg-black px-5  ">
+        <nav class="px-5 py-3" style="background-color: rgb(15, 23, 30);">
             <div>
 
-                <img src="./img/spotify.jpg" style="max-height: 50px;" alt="">
+                <img src="./img/spoty.png" style="max-height: 40px;" alt="">
             </div>
         </nav>
 

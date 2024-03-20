@@ -20,9 +20,31 @@
 
     <div id="app">
 
-        <div class="container">
+        <nav class="bg-black px-5  ">
+            <div>
 
-            
+                <img src="./img/spotify.jpg" style="height: 80px;" alt="">
+            </div>
+        </nav>
+
+        <div class="container d-flex justify-content-center gap-5 pt-5 flex-wrap">
+
+
+
+
+            <div v-for="album in discList" class="card px-3 pt-3" style="width: 20rem;">
+                <img :src="album.poster" class="card-img-top" alt="">
+                <div class="card-body text-center ">
+                    <h5 class="card-title"><strong>{{album.title}}</strong></h5>
+                    <p class="card-text">{{album.author}}</p>
+                    <p class="card-text"><strong>{{album.year}}</strong></p>
+                    <!-- <p class="card-text">{{album.genre}}</p> -->
+
+                </div>
+            </div>
+
+
+
 
         </div>
 

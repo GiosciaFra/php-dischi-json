@@ -10,7 +10,6 @@ createApp({
     mounted() {
         axios.get('./server.php').then(res => {
             this.discList = res.data;
-            console.log(this.discList);
         });
 
     }
